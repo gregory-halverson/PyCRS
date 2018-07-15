@@ -2,3 +2,4 @@ setuptools
 pyproj
 pyagg
 pygeoj
+pypi

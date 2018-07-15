@@ -1,7 +1,7 @@
-import pipy
+import pypi
  
 packpath = "pycrs"
-pipy.define_upload(packpath,
+pypi.define_upload(packpath,
                    author="Karim Bahgat",
                    author_email="karim.bahgat.norway@gmail.com",
                    license="MIT",
@@ -21,7 +21,7 @@ pipy.define_upload(packpath,
                                 "Topic :: Scientific/Engineering :: GIS"],
                    )
 
-pipy.generate_docs(packpath)
+pypi.generate_docs(packpath)
 #pipy.upload_test(packpath)
-pipy.upload(packpath)
+pypi.upload(packpath)
 
